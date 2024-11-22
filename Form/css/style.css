@@ -26,16 +26,8 @@ label{
     margin: 10px 0 5px;
 }
 
-#exampleInputEmail1{
-    width: 72%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 18px;
-    margin-left: 6%;
-    cursor: pointer;
-}
-#exampleInputPassword1{
+#exampleInputPassword1
+{
     width: 72%;
     padding: 10px;
     margin-bottom: 10px;
@@ -45,6 +37,15 @@ label{
     cursor: pointer;
 }
 
+#exampleInputEmail1{
+    width: 72%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    margin-left: 6%;
+    cursor: pointer;
+}
 form{
     border: solid;
     border-radius: 10px 10px 10px 10px;
@@ -57,8 +58,8 @@ form{
 }
 #reset{
     position: relative;
-    top: 17px;
-    left: 24%;
+    top: 16px;
+    left: 21%;
 }
 .btn{
     width: 42%;
@@ -66,4 +67,61 @@ form{
     position: relative;
     left: 80px;
     top: 10px;
+}
+#itasti{
+    position: relative;
+    right: 10px;
+}
+/*phone*/
+@media  screen and (max-width: 480px) {
+    #loginForm{
+        margin-right: 10px;
+    }
+    #emailHelp{
+        font-size: 10px;
+        color: red;
+    }
+    #name{
+        font-size: 25px;
+    }
+    #message{
+        font-size: 13px;
+    }
+    #btn{
+        position: relative;
+        right: 32px;
+    }
+}
+@media  screen and (max-width: 320px) {
+    #loginForm{
+        margin-right: 10px;
+    }
+    #emailHelp{
+        font-size: 10px;
+        color: red;
+    }
+    #name{
+        font-size: 23px;
+    }
+    #message{
+        font-size: 12px;
+    }
+    #itasti{
+        position: relative;
+        right: 44px;
+    }
+    #exampleInputPassword1{
+        margin-right: 0;
+        width: 10pc;
+    }
+    #exampleInputEmail1{
+        width: 10pc;
+    }
+    .mb-3{
+        position: relative;
+        right: 16px;
+    }
+}
+@media  screen and (max-width: 768px){
+
 }

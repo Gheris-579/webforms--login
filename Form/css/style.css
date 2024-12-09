@@ -20,7 +20,9 @@ body{
     animation-duration: 5s;
 }
 
-
+#emailHelp{
+    color: red;
+}
 label{
     display: block;
     margin: 10px 0 5px;
@@ -61,13 +63,15 @@ form{
     top: 16px;
     left: 21%;
 }
-.btn{
+#btnlog{
+    border-radius: 16px 16px 16px 16px;
     width: 42%;
     justify-content: space-around;
     position: relative;
     left: 80px;
     top: 10px;
 }
+
 #itasti{
     position: relative;
     right: 10px;
@@ -78,8 +82,7 @@ form{
         margin-right: 10px;
     }
     #emailHelp{
-        font-size: 10px;
-        color: red;
+        font-size: 13px;
     }
     #name{
         font-size: 25px;
@@ -87,9 +90,22 @@ form{
     #message{
         font-size: 13px;
     }
-    #btn{
+    #btnlog{
         position: relative;
         right: 32px;
+    }
+    #reset{
+        position: relative;
+        top: 26px;
+        left: 74px;
+        max-width: 137px;
+    }
+    #itasti{
+        position: relative;
+        right: 35px;
+    }
+    #emailHelp{
+        font-size: 12px;
     }
 }
 @media  screen and (max-width: 320px) {
@@ -97,8 +113,7 @@ form{
         margin-right: 10px;
     }
     #emailHelp{
-        font-size: 10px;
-        color: red;
+        font-size: 9px;
     }
     #name{
         font-size: 23px;
@@ -121,6 +136,12 @@ form{
         position: relative;
         right: 16px;
     }
+    #reset{
+        position: relative;
+        top: 28px;
+        left: 52px;
+    }
+
 }
 @media  screen and (max-width: 768px){
 

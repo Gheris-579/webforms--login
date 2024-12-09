@@ -18,10 +18,12 @@ Ricorda che questo esempio non è sicuro per un'applicazione reale, poiché le c
 
 <h2>Desktop</h2>
 
-![image](https://github.com/user-attachments/assets/d7738525-b8b7-498b-a5cf-fd307a21a1c6)
+![image](https://github.com/user-attachments/assets/c91ad2e9-7cc8-4288-bfa8-ca23bdcc84b2)
+
 
 <h2>Phone</h2>
 
-![image](https://github.com/user-attachments/assets/c2237ff4-d01d-43cd-9c3c-3e3cc3a9d7c0)
+![image](https://github.com/user-attachments/assets/927fcd24-4a65-4863-b2b2-eb87e6501e00)
+
 
 

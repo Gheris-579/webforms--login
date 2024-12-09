@@ -14,7 +14,6 @@ body{
     font-family: "Inconsolata", monospace;
     font-style: normal;
     text-align: center;
-    display: inline-block;
     margin: 0 0.5rem;
     animation: bounce;
     animation-duration: 5s;
@@ -50,7 +49,7 @@ label{
 }
 form{
     border: solid;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 94px 10px 94px;
     padding: 59px 20px 33px 67px;
     box-shadow: 15px 14px 17px 11px;
 }

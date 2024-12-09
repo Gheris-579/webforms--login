@@ -35,7 +35,6 @@ label{
     border: 1px solid #ccc;
     border-radius: 18px;
     margin-left: 6%;
-    cursor: pointer;
 }
 
 #exampleInputEmail1{
@@ -45,7 +44,6 @@ label{
     border: 1px solid #ccc;
     border-radius: 18px;
     margin-left: 6%;
-    cursor: pointer;
 }
 form{
     border: solid;

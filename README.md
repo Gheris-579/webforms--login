@@ -26,5 +26,23 @@ Ricorda che questo esempio non è sicuro per un'applicazione reale, poiché le c
 ![image](https://github.com/user-attachments/assets/81bbfe83-f682-4028-9885-1ffde6bb62eb)
 
 
+# Django user account, sign up, login and logout  Python
 
 
+![image](https://github.com/user-attachments/assets/76db69dc-aa61-419f-9fd4-fc1d3fba54cf)
+
+
+
+![image](https://github.com/user-attachments/assets/662059a8-1a5f-4538-abc9-fc7e406f61dd)
+
+<h1><strong>!!! This program is not finished I am working on the project</strong></h1>
+
+<p>Django è un framework web potente e flessibile che semplifica lo sviluppo di applicazioni web, incluse le funzionalità di gestione degli utenti. Per implementare un sistema di account utente, puoi utilizzare il sistema di autenticazione integrato di Django.
+
+<strong>Registrazione (Sign Up):</strong> Gli utenti possono registrarsi creando un nuovo account. Puoi creare un modulo personalizzato per raccogliere informazioni come nome utente, password e email. Django gestisce automaticamente la crittografia delle password.
+
+<strong>Accesso (Login):</strong> Gli utenti possono accedere al proprio account utilizzando le credenziali precedentemente registrate. Django offre le viste e i moduli necessari per la gestione dell'accesso, garantendo la sicurezza dei dati.
+
+<strong>Disconnessione (Logout):</strong> Gli utenti possono disconnettersi facilmente, chiudendo la sessione attiva. La funzione di logout di Django elimina la sessione utente, mantenendo le informazioni private al sicuro.
+
+<em>Utilizzando Django, puoi quindi implementare rapidamente e in modo sicuro queste funzionalità essenziali per qualsiasi applicazione web.</em></p>

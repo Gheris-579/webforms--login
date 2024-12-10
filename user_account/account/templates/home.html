@@ -68,25 +68,6 @@
             </div>
             <a href="{% url 'logout' %}">Logout</a>
         </div>
-        <h3>Item List</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for item in items %}
-                    <tr>
-                        <td>{{ item.name }}</td>
-                        <td>{{ item.description }}</td>
-                        <td>${{ item.price }}</td>
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
     </div>
 </body>
 </html>
